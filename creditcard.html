@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DailyUi - Checkout</title>
+	<link rel="stylesheet" type="text/css" href="creditcard.css">
+	<script src="https://use.fontawesome.com/d8a7f5c045.js"></script>
+</head>
+	<body>
+	<div id="bgPanel">
+		<!-- <div> -->
+			<form>
+				<a href="#" class="tooltip">
+					<h3>Card Number <i class="fa fa-lock"></i></h3>
+						<span>
+							Metal Gear???
+						</span>
+				</a>
+				<input id="number" type="text" name="cardNum" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16">
+				<h3>Expiry Date</h3>
+				<select name="Month">
+					<option value="month">Month</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+				<select name="Year">
+					<option value="year">Year</option>
+					<option value="10XX">10XX</option>
+					<option value="11XX">11XX</option>
+					<option value="12XX">12XX</option>
+					<option value="19XX">19XX</option>
+					<option value="20XX">20XX</option>
+					<option value="30XX">30XX</option>
+					<option value="40XX">40XX</option>
+					<option value="50XX">50XX</option>
+					<option value="60XX">60XX</option>
+					<option value="70XX">70XX</option>
+					<option value="80XX">80XX</option>
+					<option value="90XX">90XX</option>
+				</select>
+				<div class="securitySection">
+					<div>
+						<a href="#" class="tooltip">
+							<H3>Security Code <i class="fa fa-lock"></i></H3>
+								<span>
+									Snaaaaaaake!!!?!??
+								</span>
+						</a>
+						<input class="sec" type="text" name="securityCode" maxlength="4">
+					</div>
+					<div>
+						<h3>Postal Code</h3>
+						<input class="sec" type="text" name="postalCode" placeholder="X1X-1X1">
+					</div>
+				</div>
+			</form>
+			<P>If you don't cancel your subscription before the trial ends on September 23, 2016, you agree that you will automatically be charged the subscription fee every month until you cancel. Full terms are available <a href="#">here</a>.</P>
+			<button id="confirm">Checkout</button>
+		<!-- </div> -->
+	</div>
+	</body>
+</html>

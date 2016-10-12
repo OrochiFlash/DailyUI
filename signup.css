@@ -1,0 +1,104 @@
+* {
+	font-size: 1.1em;
+	font-family: monospace;
+}
+
+body {
+	background-color: #BC8400;
+	margin: 0;
+	margin-bottom: 2%;
+}
+
+.signup-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #66C0C4;
+	box-shadow: 0 -5px 0 0 #006D72;
+	-webkit-border-radius: 100%;
+	width: 125px;
+	height: 125px;
+	margin: 2.5%;
+	margin-bottom: 15%;
+}
+
+/*Sign Up Page Title*/
+.signup-title h3 {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	font-family: monospace;
+}
+
+/*Login Button*/
+.confirm {
+	background-color: #F81B30;
+	color: #FFFFFF;
+	border: none;
+	padding: 2%;
+	box-shadow: 0 10px 0 0 #B60011;
+	margin: 4%;
+	width: 60%;
+	height: 100%;
+	-webkit-border-radius: 10px;
+}
+
+/*Sign Up Form*/
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+/*Sign Up Form Fields*/
+.input-fields input {
+	background-color: #66C0C4;
+	border: none;
+	width: 80%;
+	height: 100%;
+	color: #FFFFFF;
+	box-shadow: 0 -7px 0 0 #006D72;
+	padding: 2%;
+	margin: 2%;
+	margin-bottom: 7.5%;
+	-webkit-border-radius: 5px;
+}
+
+/*Placeholder text*/
+::-webkit-input-placeholder {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+button:focus,
+input:focus{
+	outline: none;
+}
+
+/*Sign Up Form Field BG*/
+.panelBG {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #14A3AA;
+	padding: 5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 10px;
+	box-shadow: 0 10px 0 0 #006D72;
+
+	min-height: 427.125px;
+	min-width: 249.403px;
+}
+
+/*Base BG*/
+.baseBG {
+	background-color: #EEA700;
+	padding: 10%;
+	border-bottom-left-radius: 1%;
+	border-bottom-right-radius: 1%;
+}

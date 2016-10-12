@@ -1,0 +1,92 @@
+body {
+	background-color: #ECF5F4;
+}
+
+select {
+	font-family: monospace;
+	border: none;
+	width: 48%;
+}
+
+form {
+	width: 100%;
+	max-width: 300px;
+	max-height: 215px;
+}
+
+form input {
+	border: none;
+}
+
+#bgPanel {
+	width: 20%;
+	height: 100%;
+	max-width: 300px;
+	max-height: 405px;
+	min-width: 300px;
+	min-height: 405px;
+	background-color: #1B8F87;
+	margin-top: 10%;
+	margin-right: 40%;
+	margin-left: 40%;
+	margin-bottom: 10%;
+	padding: 2.5%;
+	color: #ECF5F4;
+	font-family: monospace;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#confirm {
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: #54AFA8;
+	color: #ECF5F4;
+	font-size: 2em;
+	font-family: monospace;
+}
+
+#confirm:hover {
+	background-color: #E97E2B;
+}
+
+#number {
+	width: 100%;
+}
+
+.securitySection {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+.sec {
+	width: 95%;
+}
+
+a.tooltip {
+	outline: none;
+}
+
+a.tooltip:hover {
+	text-decoration: none;
+}
+
+a.tooltip span {
+    z-index:10;
+    display:none; 
+    padding:14px 20px;
+    margin-top:60px; 
+    margin-left:-10px;
+    width:300px; 
+    line-height:16px;
+}
+
+a.tooltip:hover span{
+    display:inline; 
+    position:relative; 
+    border: none;  
+    color:#EEE;
+    background-color: #3D1A00;
+}
